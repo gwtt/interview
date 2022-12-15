@@ -1,5 +1,6 @@
 - Java基础	
   - [**Java包装类**](Java/java包装类/Java包装类.md)
+  - [**类加载**](Java/java类/类加载.md)
 - Redis
   - [**Redis概念**](Redis/Redis概念.md)
   - [**Redis数据结构**](Redis/Redis数据结构.md)
@@ -9,4 +10,7 @@
   - [**Redis集群模式**](Redis/Redis集群模式.md)
   - [**Redis雪崩、击穿与穿透**](Redis/Redis雪崩、击穿与穿透.md)
   - [**Redis布隆过滤器**](Redis/Redis布隆过滤器.md)
-
+- 工具类
+  - [**jwt(Token)问题**](工具类/jwt(Token原理).md)
+- Springboot
+  - [**流程问题**](Springboot/流程.md)
