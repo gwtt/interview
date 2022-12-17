@@ -14,7 +14,7 @@
 - Java
 
   - java包装类
-    - [**Java包装类**](Java/java包装类/Java包装类.md)
+    - [**java包装类**](Java/java包装类/java包装类.md)
 
   - java基础
     - [**集合**](Java/java基础/集合.md)
