@@ -26,6 +26,7 @@
     - [**锁**](Java/juc/锁.md)
     - [**线程池**](Java/juc/线程池.md)
     - [**ThreadLocal**](Java/juc/ThreadLocal.md)
+    - [**秒杀**](Java/juc/秒杀.md)
 
 - Jvm
 
@@ -48,10 +49,12 @@
 - Springboot
   - [**流程问题**](Springboot/流程.md)
   - [**事务**](Springboot/事务.md)
-
+  - [**AOP**](Springboot/AOP.md)
+  
 - 分布式
   - [**注册中心**](分布式/注册中心.md)
-
+  - [**分布式锁**](分布式/分布式锁.md)
+  
 - 计算机网络
   - [**cookie和session**](计算机网络/cookie和session.md)
   - [**TCP和UDP**](计算机网络/TCP和UDP.md)
