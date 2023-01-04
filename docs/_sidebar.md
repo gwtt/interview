@@ -22,10 +22,12 @@
     - [**集合**](Java/java基础/集合.md)
     - [**面向对象**](Java/java基础/面向对象.md)
     - [**数据结构**](Java/java基础/数据结构.md)
+    - [**引用**](Java/java基础/引用.md)
   - java类
     - [**类加载**](Java/java类/类加载.md)
   - juc
     - [**锁**](Java/juc/锁.md)
+    - [**线程**](Java/juc/线程.md)
     - [**线程池**](Java/juc/线程池.md)
     - [**ThreadLocal**](Java/juc/ThreadLocal.md)
     - [**秒杀**](Java/juc/秒杀.md)
