@@ -81,3 +81,31 @@
 > 然后我new了两个对象，内容都相同。因为我们重写了equals方法，所以两者equals相等
 >
 > 根据hashcode原则，两个对象相等，hashcode一定相等。但是在把这两个对象放入hashmap中时，由于默认hashcode方法是根据默认的内存地址计算而来的，所以不会相等，这就不符合hashcode原则了，所以我们要重写这个方法。
+
+
+
+### 哈希冲突解决
+
+> #### 1、开放定址法：我们在遇到哈希冲突时，去寻找一个新的空闲的哈希地址。
+>
+> 举例：就是当我们去教室上课，发现该位置已经存在人了，所以我们应该寻找新的位子坐下，这就是开放定址法的思路。如何寻找新的位置就通过以下几种方法实现。
+>
+> #### 1）线性探测法
+>
+> ​    当我们的所需要存放值的位置被占了，我们就往后面一直加1并对m取模直到存在一个空余的地址供我们存放值，取模是为了保证找到的位置在0~m-1的有效空间之中。
+>
+> ![img](HashMap相关/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ4MjQxNTY0,size_16,color_FFFFFF,t_70.png)
+>
+> #### 2）平方探测法（二次探测）
+>
+> ​         当我们的所需要存放值的位置被占了，会前后寻找而不是单独方向的寻找。
+>
+> ![img](HashMap相关/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ4MjQxNTY0,size_16,color_FFFFFF,t_70-1679567546294-5.png)
+>
+> #### 2、再哈希法：同时构造多个不同的哈希函数，等发生哈希冲突时就使用第二个、第三个……等其他的哈希函数计算地址，直到不发生冲突为止。虽然不易发生聚集，但是增加了计算时间。
+>
+> #### 3、链地址法：将所有哈希地址相同的记录都链接在同一链表中。
+>
+> ![img](HashMap相关/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ4MjQxNTY0,size_16,color_FFFFFF,t_70-1679567868868-8.png)
+>
+> #### 4、建立公共溢出区：将哈希表分为基本表和溢出表，将发生冲突的都存放在溢出表中。
