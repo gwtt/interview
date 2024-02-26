@@ -84,12 +84,12 @@
   - Mysql
     - ⼿撕 SQL(待补充)
     - [**MySQL 存储引擎**](编程指北相关热点题目/MySQL存储引擎.md)
-    - [**MySQL 事务**](编程指北相关热点题目/MySQL 事务.md)
-    - [**MySQL 字段类型**](编程指北相关热点题目/MySQL 字段类型.md)
-    - [**MySQL 索引**](编程指北相关热点题目/MySQL 索引.md)
-    - [**MySQL 锁**](编程指北相关热点题目/MySQL 锁.md)
-    - [**MySQL ⽇志**](编程指北相关热点题目/MySQL ⽇志.md)
-    - [**MySQL 性能优化**](编程指北相关热点题目/MySQL 性能优化.md)
+    - [**MySQL事务**](编程指北相关热点题目/MySQL 事务.md)
+    - [**MySQL字段类型**](编程指北相关热点题目/MySQL 字段类型.md)
+    - [**MySQL索引**](编程指北相关热点题目/MySQL 索引.md)
+    - [**MySQL锁**](编程指北相关热点题目/MySQL 锁.md)
+    - [**MySQL⽇志**](编程指北相关热点题目/MySQL ⽇志.md)
+    - [**MySQL性能优化**](编程指北相关热点题目/MySQL 性能优化.md)
   - Redis
     - [**Redis 基础**](编程指北相关热点题目/Redis 基础.md)
     - [**Redis 应⽤**](编程指北相关热点题目/Redis 应⽤.md)
